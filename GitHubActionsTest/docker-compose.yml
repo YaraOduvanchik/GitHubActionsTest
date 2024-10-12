@@ -1,0 +1,6 @@
+﻿services:
+  githubactionstest:
+    image: githubactionstest
+    build:
+      context: .
+      dockerfile: GitHubActionsTest/Dockerfile
